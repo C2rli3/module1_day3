@@ -1,0 +1,59 @@
+#container{
+
+    border: solid black 1px;
+    width: 98vw;
+    height: 55vw;;
+    display: grid; 
+    grid-template-columns: auto;
+    grid-template-rows: 1fr 1fr 1fr;
+
+}
+
+#insp{
+
+    border:solid royalblue 5px;
+    display: grid;
+    width: 98%;
+    height: 25vw;
+    grid-template-rows: 1fr 2fr;
+    grid-template-columns: 1fr;
+    gap: 6px;
+    
+
+}
+
+
+p{
+
+    color:black;
+    font-size: 3rem;
+}
+
+header{
+
+    background-color: crimson;
+}
+
+.sidebar{
+    background-color: blue;
+    width: 25vw;
+    height: 25vw;;
+    
+}
+
+.sidebarplus{
+    background-color: orange;
+    width:75vw;
+    height: auto;
+    grid-row: span 1;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    
+}
+
+
+
+footer{
+
+    background-color: aqua;
+}
